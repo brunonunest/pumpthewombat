@@ -1,9 +1,13 @@
 /* General styles */
+* {
+    margin: 0; /* Reset margin for all elements */
+    padding: 0; /* Reset padding for all elements */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     color: #fff; /* White text for dark background */
     background-color: #000; /* Black background */
     text-align: center;
@@ -19,7 +23,6 @@ header {
 
 header h1 {
     font-size: 2rem;
-    margin: 0;
 }
 
 /* Main section */
@@ -29,11 +32,10 @@ main {
 
 /* Section styles */
 section {
-    margin: 20px 0;
-    padding: 10px;
-    border: 2px solid #ffbd33; /* Border for contrast */
-    border-radius: 10px; /* Rounded corners */
-    background: rgba(255, 255, 255, 0.1); /* Transparent white overlay */
+    margin: 0; /* Remove margins between sections */
+    padding: 10px; /* Keep some padding inside sections for content spacing */
+    border: none; /* Remove borders from sections */
+    background: transparent; /* Set section background to transparent */
 }
 
 section h2 {
