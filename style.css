@@ -1,0 +1,68 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text for dark background */
+    background-color: #000; /* Black background */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #ff5733, #ffbd33); /* Gradient for flair */
+    color: #000; /* Black text on gradient */
+    padding: 20px;
+    text-shadow: 1px 1px #fff; /* Slight text shadow */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Main section */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #ffbd33; /* Border for contrast */
+    border-radius: 10px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.1); /* Transparent white overlay */
+}
+
+section h2 {
+    color: #ffbd33; /* Accent color for headings */
+    font-size: 1.5rem;
+}
+
+section p {
+    font-size: 1rem;
+    font-style: italic; /* Adds a humorous tone */
+}
+
+/* Images */
+img {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Soft shadow for images */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Footer */
+footer {
+    background: #ff5733; /* Footer in bright orange */
+    color: #000;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
